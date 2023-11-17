@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div id="weatherInfo" class="fade-in">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="dateTime"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
